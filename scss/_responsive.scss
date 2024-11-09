@@ -1,0 +1,13 @@
+@use 'breakpoints' as breakpoints;
+
+@include breakpoints.mobile-only{
+    div#navbarSupportedContent {
+    position: absolute;
+    top: 100%;
+    background: #6c757d;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    padding: 10px;
+  }
+}
