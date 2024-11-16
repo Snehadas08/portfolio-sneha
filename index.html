@@ -148,11 +148,11 @@
     <div class="container py-3" style="background-color: #929292;">
       <h1 class="heading text-center pb-5 animate__animated animate__lightSpeedInRight">Achievements</h1>
       <div class="d-flex align-items-start achievements-content">
-        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <div class="nav flex-column nav-pills me-3 flex-fill" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <button class="ach-btn active mb-5" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-professional" aria-selected="true">Professional Achievements</button>
           <button class="ach-btn" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Personal Achievements</button>
           </div>
-        <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-content flex-fill" id="v-pills-tabContent">
           <div class="tab-pane fade show active " id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
 
           <div id="vt2">
@@ -201,23 +201,25 @@
                  </ul>
               </div>
               <div class="col-12 col-lg-6 col-md-6">
+             <form id="myForm">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-dark fw-semibold">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Your name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-dark fw-semibold">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-dark fw-semibold">Contact Number</label>
+                <input type="email" class="form-control" id="number" placeholder="*****">
+              </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label text-dark fw-semibold">Name</label>
-                  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label text-dark fw-semibold">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label text-dark fw-semibold">Contact Number</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="*****">
-                </div>
-                  <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label text-dark fw-semibold">Remarks</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="button" class="ach-btn my-2">Submit</button>
+                <label for="exampleFormControlTextarea1" class="form-label text-dark fw-semibold">Remarks</label>
+                <textarea class="form-control" id="textarea" rows="3"></textarea>
+              </div>
+              <button type="submit" class="ach-btn my-2">Submit</button>
+             </form>
               </div>
             </div>
       </div>
@@ -235,6 +237,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/vertical-timeline.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
