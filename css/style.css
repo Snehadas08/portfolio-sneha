@@ -96,6 +96,14 @@ ul {
   color: #252225;
 }
 
+.nav-text {
+  color: #252225;
+  font-weight: 600;
+}
+.nav-text:hover {
+  color: #252225;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   div#navbarSupportedContent {
     position: absolute;
