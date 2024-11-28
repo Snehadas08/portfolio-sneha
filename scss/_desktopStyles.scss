@@ -34,6 +34,7 @@
   }
   .subtitle-heading{
     font-family: "Lato";
+    
     font-size: 1.2rem;
   }
   .sub-heading {
@@ -78,11 +79,14 @@
     background-color: #282c31;
   }
   .ach-btn{
-    background-color: #cbcbcb;
+    background-color:#b8b8b8;
     border: none;
     padding: 10px 10px;
     font-family: 'Lato';
+    
     &:hover{
+     background-color: #e0dfdf;
+     border: none;
       
       transition: ease-in-out 0.5s;
     }
