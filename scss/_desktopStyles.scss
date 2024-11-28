@@ -29,6 +29,13 @@
     font-family: "Italiana";
     text-align: center;
   }
+  .headline-heading{
+    font-family: "Italiana";
+  }
+  .subtitle-heading{
+    font-family: "Lato";
+    font-size: 1.2rem;
+  }
   .sub-heading {
     font-family: "Lato";
     text-align: center;
@@ -38,17 +45,7 @@
     font-family: 'Lato';
     font-weight: bold;
   }
-
-  // div#navbarSupportedContent {
-  //   position: absolute;
-  //   top: 100%;
-  //   background: #6c757d;
-  //   width: 100vw;
-  //   left: 0;
-  //   right: 0;
-  //   padding: 10px;
-  // }
-  .designer__heading {
+ .designer__heading {
     font-family: "geeeki-regularregular";
     font-size: 6rem;
   }
@@ -59,9 +56,11 @@
   .heading {
     font-family: "Italiana";
   }
-  // .buttons {
-  //   font-family: "Italiana";
-  // }
+  .buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
   .hero-banner {
     background-color: #929292;
     ul {
@@ -71,14 +70,9 @@
   .work-section {
     background-color: #cbcbcb;
   }
-  // .navbar-nav .nav-item .nav-link:focus {
-  //     text-decoration: underline;
-  //     background-color: rgb(235, 235, 225);
-  // }
   .sm-icons {
     flex-direction: row;
   }
-
   .vtimeline-icon,
   .vtimeline:before {
     background-color: #282c31;
@@ -86,10 +80,10 @@
   .ach-btn{
     background-color: #cbcbcb;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-family: 'Lato';
     &:hover{
-      background-color: #6b6868;
+      
       transition: ease-in-out 0.5s;
     }
   }
@@ -107,4 +101,7 @@
   &:hover{
     color: #252225;
 }
+}
+.about-me{
+  text-align: left;
 }
