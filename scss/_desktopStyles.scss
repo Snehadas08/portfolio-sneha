@@ -109,3 +109,12 @@
 .about-me{
   text-align: left;
 }
+.contact-heading{
+  padding: 10px 10px;
+  &:hover{
+    background-color: #e4e1e1;
+    
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+  }
+}
