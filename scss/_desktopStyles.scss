@@ -64,13 +64,22 @@
     align-items: center;
   }
   .hero-banner {
-    background-color: #929292;
+    background-color: #d9d9d9;
     ul {
       list-style: none;
     }
   }
+  .about-me{
+    background-color: #d9d9d9;
+  }
   .work-section {
     background-color: #cbcbcb;
+  }
+  .contact{
+    background-color: #cbcbcb;
+  }
+  .footer{
+    background-color: #d9d9d9;
   }
   .sm-icons {
     flex-direction: row;
@@ -84,12 +93,10 @@
     border: none;
     padding: 10px 10px;
     font-family: 'Lato';
-    
-    &:hover{
+     &:hover{
      background-color: #e0dfdf;
      border: none;
-      
-      transition: ease-in-out 0.5s;
+     transition: ease-in-out 0.5s;
     }
   }
   .tb-link{

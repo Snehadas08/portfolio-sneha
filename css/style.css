@@ -76,14 +76,26 @@ ul {
 }
 
 .hero-banner {
-  background-color: #929292;
+  background-color: #d9d9d9;
 }
 .hero-banner ul {
   list-style: none;
 }
 
+.about-me {
+  background-color: #d9d9d9;
+}
+
 .work-section {
   background-color: #cbcbcb;
+}
+
+.contact {
+  background-color: #cbcbcb;
+}
+
+.footer {
+  background-color: #d9d9d9;
 }
 
 .sm-icons {
