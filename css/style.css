@@ -18,6 +18,16 @@ body {
   background-color: #b8b8b8;
 }
 
+.navbar-sticky {
+  position: fixed !important;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  animation: navslideDown 0.5s ease-out;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
 .link {
   color: #252225;
 }
