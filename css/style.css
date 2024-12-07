@@ -51,6 +51,7 @@ a {
 .heading {
   font-family: "Italiana";
   text-align: center;
+  padding-block: 20px;
 }
 
 .headline-heading {
@@ -210,6 +211,9 @@ a {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 5px;
+  }
+  .headline-heading {
+    padding-block: 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {

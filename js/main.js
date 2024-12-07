@@ -21,7 +21,7 @@
         // We're getting the current value of the href attribute of each element with a class "scrollTo".
         var getElem = $(this).attr("href");
         // This is a variable containing an integer value.
-        var targetDistance = 0;
+        var targetDistance = 100;
         // Checking If the element exists on the page or not.
         if ($(getElem).length) {
           // getting the top offset of the targetted element.
@@ -31,7 +31,7 @@
             {
               scrollTop: getOffset - targetDistance,
             },
-            500
+            100
           );
         }
         // returning false performs three tasks when called:

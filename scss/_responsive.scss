@@ -17,6 +17,9 @@
     grid-template-columns: auto auto;
     grid-gap: 5px;
   }
+  .headline-heading{
+    padding-block: 20px;
+  }
 }
 @include breakpoints.tablet-only{
   div#nav-tab {
