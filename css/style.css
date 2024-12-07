@@ -205,10 +205,19 @@ a.back-to-top {
   z-index: 999;
   right: 20px;
   bottom: 20px;
-  background: url("/assets/back to top.svg") no-repeat center 50%;
+  background: #ffffff url("../assets/back-to-top.svg") no-repeat center;
+  background-size: cover;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
+}
+
+.vtimeline-content {
+  background: transparent;
+}
+
+.vtimeline-date {
+  background: transparent;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -236,6 +245,11 @@ a.back-to-top {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 5px;
+  }
+}
+@media screen and (min-width: 993px) {
+  .vtimeline-block {
+    width: 50%;
   }
 }
 
