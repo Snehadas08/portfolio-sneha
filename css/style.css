@@ -187,6 +187,18 @@ a {
   justify-content: center;
 }
 
+.footer-icons {
+  background-color: #e4e1e1;
+  display: flex;
+  padding-block: 10px;
+  margin: 0 auto;
+  height: 35px;
+  width: 35px;
+  align-items: center;
+  border-radius: 50%;
+  padding: 10px;
+}
+
 .skills-carousel .slick-slide .slide-content {
   padding: 50px 100px;
   display: flex;
