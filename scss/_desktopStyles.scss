@@ -89,6 +89,12 @@
   }
   .about-me{
     background-color: #d9d9d9;
+    .menu-image{
+      width: 25rem;
+    }
+    img{
+      border: 6px solid #ffffff;
+    }
   }
   .work-section {
     background-color: #cbcbcb;
@@ -220,4 +226,40 @@ a.back-to-top {
 }
 .vtimeline-date{
   background: transparent;
+}
+.banner-heading{
+  font-family: 'Italiana';
+  font-size: 5rem;
+  text-align: center;
+}
+.work-section{
+  .logo-design{
+    display:flex;
+    gap: 20px;
+  }
+  .logo-section{
+    height:600px;
+    width: 600px;
+  }
+  .magazine-covers{
+    display: flex;
+    gap: 20px;
+  }
+  .magazine{
+    width: 400px;
+  }
+  .posters{
+    display: flex;
+    gap: 20px;
+  }
+  .poster-section{
+    width: 400px;
+  }
+  .landscapes{
+    display: flex;
+    gap: 20px;
+  }
+  .landscape-section{
+    width: 400px;
+  }
 }
