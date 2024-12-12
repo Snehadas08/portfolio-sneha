@@ -117,7 +117,9 @@
     background-color:#b8b8b8;
     border: none;
     padding: 10px 10px;
+    color: #252225;
     font-family: 'Lato';
+    font-weight: 600;
      &:hover{
      background-color: #e0dfdf;
      border: none;
@@ -261,5 +263,8 @@ a.back-to-top {
   }
   .landscape-section{
     width: 400px;
+  }
+  .web-btn{
+    text-align: center;
   }
 }

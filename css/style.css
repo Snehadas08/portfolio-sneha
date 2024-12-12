@@ -137,7 +137,9 @@ a {
   background-color: #b8b8b8;
   border: none;
   padding: 10px 10px;
+  color: #252225;
   font-family: "Lato";
+  font-weight: 600;
 }
 .ach-btn:hover {
   background-color: #e0dfdf;
@@ -272,6 +274,9 @@ a.back-to-top {
 }
 .work-section .landscape-section {
   width: 400px;
+}
+.work-section .web-btn {
+  text-align: center;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
