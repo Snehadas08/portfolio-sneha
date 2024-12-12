@@ -251,8 +251,8 @@ a.back-to-top {
   gap: 20px;
 }
 .work-section .logo-section {
-  height: 600px;
-  width: 600px;
+  height: 400px;
+  width: 400px;
 }
 .work-section .magazine-covers {
   display: flex;
@@ -277,6 +277,10 @@ a.back-to-top {
 }
 .work-section .web-btn {
   text-align: center;
+  padding-bottom: 20px;
+}
+.work-section .website-link {
+  padding-block: 20px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

@@ -238,10 +238,10 @@ a.back-to-top {
   .logo-design{
     display:flex;
     gap: 20px;
-  }
+     }
   .logo-section{
-    height:600px;
-    width: 600px;
+    height:400px;
+    width: 400px;
   }
   .magazine-covers{
     display: flex;
@@ -266,5 +266,9 @@ a.back-to-top {
   }
   .web-btn{
     text-align: center;
+    padding-bottom: 20px;
+  }
+  .website-link{
+    padding-block: 20px;
   }
 }

@@ -29,18 +29,18 @@ $(document).ready(function () {
     ],
   });
 });
-(function(){
-  $('.logo-design').slick({
-    infinite        : true,
-    slidesToShow    : 3,
-    slidesToScroll  : 2,
-    mobileFirst     : true,
-    dots: true,
-  });
+// (function(){
+//   $('.logo-design').slick({
+//     infinite        : true,
+//     slidesToShow    : 3,
+//     slidesToScroll  : 2,
+//     mobileFirst     : true,
+//     dots: true,
+//   });
   
   
-  $('.logo-design').slickLightbox({
-    itemSelector        : 'logo-section',
-    navigateByKeyboard  : true
-  });
-})();
+//   $('.logo-design').slickLightbox({
+//     itemSelector        : 'logo-section',
+//     navigateByKeyboard  : true
+//   });
+// })();
