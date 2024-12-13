@@ -33,11 +33,3 @@
     width: 50%;
   }
 }
-@include breakpoints.desktop{
-  div#nav-tab {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-gap: 5px;
-  }
-}
