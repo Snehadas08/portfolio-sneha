@@ -11,8 +11,10 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body {
+  html,body {
     background-color: #e4e1e1;
+    width: 100%;
+    overflow-x: hidden;  
   }
   .navbar{
     background-color: #b8b8b8;
@@ -89,9 +91,13 @@
   }
   .about-me{
     background-color: #d9d9d9;
-    .menu-image{
-      width: 25rem;
+    .intro{
+      justify-content: space-between;
     }
+    // .menu-image{
+    //   width: 25rem;
+      
+    // }
     img{
       border: 6px solid #ffffff;
     }
@@ -129,6 +135,7 @@
   .tb-link{
     background-color: #e4e1e1;
     color: #252225;
+    
 }
 // .vtimeline-block{
 //   width: 600px;
@@ -137,6 +144,7 @@
 .nav-text{
   color: #252225;
   font-weight: 600;
+  font-family: 'Lato';
   &:hover{
     color: #252225;
 }
@@ -162,6 +170,16 @@
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+}
+.contact-icon{
+  background-color:#e4e1e1;
+  padding: 10px;
+  height: 35px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-inline: 10px;
 }
 .social-icon:hover{
    background-color: #e4e1e1;

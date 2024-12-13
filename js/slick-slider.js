@@ -36,11 +36,29 @@ $(document).ready(function () {
     slidesToScroll  : 2,
     mobileFirst     : true,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 3,
+          // slidesToScroll: 3,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 321,
+        settings: {
+          slidesToShow: 1,
+          // slidesToScroll: 1,
+          dots: false,
+        },
+      },
+    ],
   });
   
   
   $('.logo-design').slickLightbox({
     itemSelector        : 'a',
-    navigateByKeyboard  : true
+    navigateByKeyboard  : true,
   });
 })();
