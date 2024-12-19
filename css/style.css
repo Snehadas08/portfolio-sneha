@@ -19,6 +19,9 @@ html, body {
 .navbar {
   background-color: #b8b8b8;
 }
+.navbar .navbar-brand {
+  width: 30px;
+}
 
 .navbar-sticky {
   position: fixed !important;
@@ -83,7 +86,6 @@ a {
 }
 
 .name {
-  font-family: "geeeki-regularregular";
   color: #252225;
 }
 
@@ -124,6 +126,10 @@ a {
 
 .footer {
   background-color: #d9d9d9;
+}
+.footer .image {
+  width: 50px;
+  margin: 0 auto;
 }
 
 .sm-icons {

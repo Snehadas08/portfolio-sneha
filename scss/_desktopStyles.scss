@@ -18,6 +18,9 @@
   }
   .navbar{
     background-color: #b8b8b8;
+    .navbar-brand{
+      width: 30px;
+      }
   }
 
   .navbar-sticky{
@@ -28,6 +31,7 @@
     right: 0;
     left: 0;
     z-index: 10;
+
 }
   .link{
     color:#252225;
@@ -72,7 +76,7 @@
     font-size: 6rem;
   }
   .name{
-    font-family: "geeeki-regularregular";
+    // font-family: "geeeki-regularregular";
     color:#252225;
   }
   .heading {
@@ -110,6 +114,10 @@
   }
   .footer{
     background-color: #d9d9d9;
+    .image{
+      width: 50px;
+      margin: 0 auto;
+    }
   }
   .sm-icons {
     flex-direction: row;
