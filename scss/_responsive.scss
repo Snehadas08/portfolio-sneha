@@ -21,14 +21,25 @@
   .headline-heading{
     padding-block: 20px;
   }
- 
+  .motion-graphic{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+  }
 }
+
 @include breakpoints.tablet-only{
   div#nav-tab {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 5px;
   }
+  .motion-graphic{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+
 }
 @media screen and (min-width: 993px) {
   .vtimeline-block {

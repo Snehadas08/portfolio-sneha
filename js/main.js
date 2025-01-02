@@ -69,3 +69,24 @@
         return false;
     });
 })();
+
+(function(){
+  let lightbox = document.querySelector('.lightbox');
+// var showImage = document.querySelector(".show");
+let image1 = document.querySelectorAll(".magazine");
+let show = document.querySelector(".image1");
+// lightbox.classList.add("show");
+
+
+image1.forEach(img=>{
+    {
+        img.onclick=function(){
+            lightbox.classList.add("show");
+             show.src=this.children[0].src;
+            
+        }
+    }
+})
+
+lightbox.onclick = function(){lightbox.classList.remove("show")};
+});

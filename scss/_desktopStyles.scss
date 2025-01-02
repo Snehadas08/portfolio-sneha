@@ -78,6 +78,7 @@
   .name{
     // font-family: "geeeki-regularregular";
     color:#252225;
+    width: 50px;
   }
   .heading {
     font-family: "Italiana";
@@ -276,13 +277,13 @@ a.back-to-top {
     padding-inline: 20px;
   }
   .magazine-covers{
-    display: flex;
-    gap: 20px;
+    
+    
     position: relative;
    
   }
   .magazine-covers:hover .magazine-display{
-    opacity: 0.3;
+    opacity: 0.9;
   }
   .magazine-covers:hover .middle{
     opacity: 1;
@@ -319,7 +320,7 @@ a.back-to-top {
     transition: .5s ease;
     backface-visibility: hidden;
   }
-  .bi{
+  .middle-icon-01,.middle-icon-02{
     
     color: rgb(7, 7, 7);
     background-color: #ffffff;
@@ -349,4 +350,88 @@ a.back-to-top {
   .website-link{
     padding-block: 20px;
   }
+}
+.motion-graphic{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto ;
+  column-gap: 20px;
+  row-gap: 20px;
+  position: relative;
+  .motion{
+    width: 300px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .motion img:hover{
+    opacity: 0.3;
+    
+ 
+    background: rgba(0,0,0,0.7);
+  }
+  .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    transition: .5s ease;
+    opacity: 0;
+ 
+   
+ 
+   }
+
+}
+.lightbox{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.479);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  place-items: center;
+  img{
+     width: 400px;
+     height: 400px;
+     object-fit: cover;
+  }
+}
+.lightbox.show{
+  display: grid;
+}
+.work-link{
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: #252225;
+}
+.motion-display{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+ 
+}
+.motion:hover .motion-display{
+  opacity: 0.9;
+}
+.motion:hover .icon{
+  opacity: 1;
 }
